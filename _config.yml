@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://domain.tld
+url:                   https://yejunantonylee.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -19,7 +19,7 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 Antony Yejun Lee
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,8 +29,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Best Jekyll Theme by a Mile".
-  Open `_config.yml` to edit this text.
+  Proactive, quick-learning, and detail-oriented software engineer intern and computer science student with 3 years of experience in computer science, iOS programming, and strong UI/UX background in various projects.
 
 # A list of keywords for your blog
 keywords:              []
@@ -38,7 +37,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/icons/icon.png
+logo:                  /assets/images/profile.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -81,8 +80,11 @@ paginate_path:         /blog/page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(255,209,220)
+#accent_image:          /assets/images/gradient.jpg
+#accent_image:          /assets/images/gradient2.jpeg
+#accent_image:          /assets/images/wallpaper.jpg
+accent_image:          /assets/images/sf.jpg
+accent_color:          rgb(59, 177, 186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -134,7 +136,7 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      UA-150657774-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
